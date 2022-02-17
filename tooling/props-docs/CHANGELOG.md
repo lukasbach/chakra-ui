@@ -1,5 +1,18 @@
 # Change Log
 
+## 1.0.48
+
+### Patch Changes
+
+- [`20b7a19ac`](https://github.com/chakra-ui/chakra-ui/commit/20b7a19ac5608ea52e63c0ecc7e680591d7f4366)
+  Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bumped patch
+  version for every package to fix release process. We found the root cause this
+  time!
+- Updated dependencies
+  [[`20b7a19ac`](https://github.com/chakra-ui/chakra-ui/commit/20b7a19ac5608ea52e63c0ecc7e680591d7f4366)]:
+  - @chakra-ui/react@1.8.4
+  - @chakra-ui/styled-system@1.17.3
+
 ## 1.0.47
 
 ### Patch Changes

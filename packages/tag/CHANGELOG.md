@@ -1,5 +1,26 @@
 # Change Log
 
+## 1.2.6
+
+### Patch Changes
+
+- [`20b7a19ac`](https://github.com/chakra-ui/chakra-ui/commit/20b7a19ac5608ea52e63c0ecc7e680591d7f4366)
+  Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bumped patch
+  version for every package to fix release process. We found the root cause this
+  time!
+
+* [#5599](https://github.com/chakra-ui/chakra-ui/pull/5599)
+  [`5d4abe4b6`](https://github.com/chakra-ui/chakra-ui/commit/5d4abe4b68bd454389224ac1001084a9929f568b)
+  Thanks [@m4x3d](https://github.com/m4x3d)! - Change order of aria-label prop
+  on TagCloseButton to be overwritable
+
+* Updated dependencies
+  [[`20b7a19ac`](https://github.com/chakra-ui/chakra-ui/commit/20b7a19ac5608ea52e63c0ecc7e680591d7f4366),
+  [`a870e6b94`](https://github.com/chakra-ui/chakra-ui/commit/a870e6b94367b7c6448d5c5c5aa8577e33e15e3a),
+  [`c2bcba11c`](https://github.com/chakra-ui/chakra-ui/commit/c2bcba11ca60c175b35dff10a922e600c3fd065c)]:
+  - @chakra-ui/icon@2.0.4
+  - @chakra-ui/utils@1.10.3
+
 ## 1.2.5
 
 ### Patch Changes

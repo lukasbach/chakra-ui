@@ -1,5 +1,17 @@
 # @chakra-ui/anatomy
 
+## 1.2.4
+
+### Patch Changes
+
+- [`20b7a19ac`](https://github.com/chakra-ui/chakra-ui/commit/20b7a19ac5608ea52e63c0ecc7e680591d7f4366)
+  Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bumped patch
+  version for every package to fix release process. We found the root cause this
+  time!
+- Updated dependencies
+  [[`20b7a19ac`](https://github.com/chakra-ui/chakra-ui/commit/20b7a19ac5608ea52e63c0ecc7e680591d7f4366)]:
+  - @chakra-ui/theme-tools@1.3.5
+
 ## 1.2.3
 
 ### Patch Changes

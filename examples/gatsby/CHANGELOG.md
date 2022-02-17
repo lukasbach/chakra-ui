@@ -1,5 +1,18 @@
 # gatsby-starter-default
 
+## 0.3.11
+
+### Patch Changes
+
+- [`20b7a19ac`](https://github.com/chakra-ui/chakra-ui/commit/20b7a19ac5608ea52e63c0ecc7e680591d7f4366)
+  Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bumped patch
+  version for every package to fix release process. We found the root cause this
+  time!
+- Updated dependencies
+  [[`20b7a19ac`](https://github.com/chakra-ui/chakra-ui/commit/20b7a19ac5608ea52e63c0ecc7e680591d7f4366)]:
+  - @chakra-ui/react@1.8.4
+  - @chakra-ui/gatsby-plugin@2.0.4
+
 ## 0.3.10
 
 ### Patch Changes

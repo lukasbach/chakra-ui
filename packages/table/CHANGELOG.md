@@ -1,5 +1,18 @@
 # @chakra-ui/table
 
+## 1.3.5
+
+### Patch Changes
+
+- [`20b7a19ac`](https://github.com/chakra-ui/chakra-ui/commit/20b7a19ac5608ea52e63c0ecc7e680591d7f4366)
+  Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bumped patch
+  version for every package to fix release process. We found the root cause this
+  time!
+- Updated dependencies
+  [[`20b7a19ac`](https://github.com/chakra-ui/chakra-ui/commit/20b7a19ac5608ea52e63c0ecc7e680591d7f4366),
+  [`a870e6b94`](https://github.com/chakra-ui/chakra-ui/commit/a870e6b94367b7c6448d5c5c5aa8577e33e15e3a)]:
+  - @chakra-ui/utils@1.10.3
+
 ## 1.3.4
 
 ### Patch Changes

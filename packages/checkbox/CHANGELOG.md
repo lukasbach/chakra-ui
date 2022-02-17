@@ -1,5 +1,27 @@
 # Change Log
 
+## 1.6.6
+
+### Patch Changes
+
+- [#5564](https://github.com/chakra-ui/chakra-ui/pull/5564)
+  [`44c9fab5b`](https://github.com/chakra-ui/chakra-ui/commit/44c9fab5b0e34484c9afb858a553d4a2aa30209d)
+  Thanks [@santialbo](https://github.com/santialbo)! - Add Form-Control support
+  for useCheckbox
+
+* [`20b7a19ac`](https://github.com/chakra-ui/chakra-ui/commit/20b7a19ac5608ea52e63c0ecc7e680591d7f4366)
+  Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bumped patch
+  version for every package to fix release process. We found the root cause this
+  time!
+* Updated dependencies
+  [[`20b7a19ac`](https://github.com/chakra-ui/chakra-ui/commit/20b7a19ac5608ea52e63c0ecc7e680591d7f4366),
+  [`a870e6b94`](https://github.com/chakra-ui/chakra-ui/commit/a870e6b94367b7c6448d5c5c5aa8577e33e15e3a)]:
+  - @chakra-ui/form-control@1.5.7
+  - @chakra-ui/hooks@1.8.3
+  - @chakra-ui/react-utils@1.2.3
+  - @chakra-ui/utils@1.10.3
+  - @chakra-ui/visually-hidden@1.1.5
+
 ## 1.6.5
 
 ### Patch Changes

@@ -1,5 +1,30 @@
 # Change Log
 
+## 2.0.2
+
+### Patch Changes
+
+- [#5574](https://github.com/chakra-ui/chakra-ui/pull/5574)
+  [`eca771a9a`](https://github.com/chakra-ui/chakra-ui/commit/eca771a9ad53edc52365f70eb0e6b19bc54d8e18)
+  Thanks [@nikolovlazar](https://github.com/nikolovlazar)! - Added props
+  descriptions to Show / Hide components
+
+* [#5576](https://github.com/chakra-ui/chakra-ui/pull/5576)
+  [`a870e6b94`](https://github.com/chakra-ui/chakra-ui/commit/a870e6b94367b7c6448d5c5c5aa8577e33e15e3a)
+  Thanks [@TimKolberger](https://github.com/TimKolberger)! - Fixed an issue
+  where the hook `useBreakpoint` did not work as expected with custom
+  breakpoints
+
+- [`20b7a19ac`](https://github.com/chakra-ui/chakra-ui/commit/20b7a19ac5608ea52e63c0ecc7e680591d7f4366)
+  Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bumped patch
+  version for every package to fix release process. We found the root cause this
+  time!
+- Updated dependencies
+  [[`20b7a19ac`](https://github.com/chakra-ui/chakra-ui/commit/20b7a19ac5608ea52e63c0ecc7e680591d7f4366),
+  [`a870e6b94`](https://github.com/chakra-ui/chakra-ui/commit/a870e6b94367b7c6448d5c5c5aa8577e33e15e3a)]:
+  - @chakra-ui/react-env@1.1.5
+  - @chakra-ui/utils@1.10.3
+
 ## 2.0.1
 
 ### Patch Changes

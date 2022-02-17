@@ -1,5 +1,36 @@
 # Change Log
 
+## 1.11.0
+
+### Minor Changes
+
+- [#5508](https://github.com/chakra-ui/chakra-ui/pull/5508)
+  [`e5e0f255c`](https://github.com/chakra-ui/chakra-ui/commit/e5e0f255c95f5e41c3b17adbda28fd09f7251642)
+  Thanks [@TimKolberger](https://github.com/TimKolberger)! - Allow all
+  `JSX.IntrinsicElements` for the chakra factory. This allows to use
+  [every DOM element](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/30a2f70db2f9ac223fd923ff1f8bcc175c082fd0/types/react/index.d.ts#L3111-L3288)
+  with the shorthand version:
+
+  ```jsx live=false
+  <chakra.header>Header</chakra.header>
+  <chakra.main>Main</chakra.main>
+  <chakra.footer>Many more</chakra.footer>
+  ```
+
+### Patch Changes
+
+- [`20b7a19ac`](https://github.com/chakra-ui/chakra-ui/commit/20b7a19ac5608ea52e63c0ecc7e680591d7f4366)
+  Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bumped patch
+  version for every package to fix release process. We found the root cause this
+  time!
+- Updated dependencies
+  [[`20b7a19ac`](https://github.com/chakra-ui/chakra-ui/commit/20b7a19ac5608ea52e63c0ecc7e680591d7f4366),
+  [`a870e6b94`](https://github.com/chakra-ui/chakra-ui/commit/a870e6b94367b7c6448d5c5c5aa8577e33e15e3a)]:
+  - @chakra-ui/color-mode@1.4.4
+  - @chakra-ui/react-utils@1.2.3
+  - @chakra-ui/styled-system@1.17.3
+  - @chakra-ui/utils@1.10.3
+
 ## 1.10.3
 
 ### Patch Changes

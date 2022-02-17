@@ -1,5 +1,30 @@
 # Change Log
 
+## 1.13.3
+
+### Patch Changes
+
+- [`20b7a19ac`](https://github.com/chakra-ui/chakra-ui/commit/20b7a19ac5608ea52e63c0ecc7e680591d7f4366)
+  Thanks [@TimKolberger](https://github.com/TimKolberger)! - Bumped patch
+  version for every package to fix release process. We found the root cause this
+  time!
+
+* [#5595](https://github.com/chakra-ui/chakra-ui/pull/5595)
+  [`0542b8a53`](https://github.com/chakra-ui/chakra-ui/commit/0542b8a53425093f18fd86d2b55220d3fa20253a)
+  Thanks [@takethefake](https://github.com/takethefake)! - Updated style config
+  for `Accordion` & `AccordionItem` (see
+  https://github.com/chakra-ui/chakra-ui/issues/5593)
+
+  This change introduces `styles.root` for styling the `Accordion`.
+  `styles.container` is still used for `AccordionItem`
+
+* Updated dependencies
+  [[`20b7a19ac`](https://github.com/chakra-ui/chakra-ui/commit/20b7a19ac5608ea52e63c0ecc7e680591d7f4366),
+  [`a870e6b94`](https://github.com/chakra-ui/chakra-ui/commit/a870e6b94367b7c6448d5c5c5aa8577e33e15e3a)]:
+  - @chakra-ui/anatomy@1.2.4
+  - @chakra-ui/theme-tools@1.3.5
+  - @chakra-ui/utils@1.10.3
+
 ## 1.13.2
 
 ### Patch Changes
