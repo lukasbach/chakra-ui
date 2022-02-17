@@ -1,90 +1,384 @@
-## 05-02-2022
+## 17-02-2022
 
-`@chakra-ui/react@1.8.2`
+`@chakra-ui/react@1.8.4`
 
-- allow framer motion v6 as peer dependency
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
 
-**Input** `v1.4.0`
+**Switch** `v1.3.6`
 
-- Add new prop `htmlSize` to `Input` to allow the usage of the native input
-  attribute `size`.
-- Apply theme styles for `InputLeftElement` and `InputRightElement`.
+- Fixed an UI issue where the Switch component rendered a few pixels off the baseline.
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
 
-**Media Query** `v2.0.0`
+**Media Query** `v2.0.2`
 
-- Support useMediaQuery for older browsers. Conditionally check if the
-  MediaQueryList object supports the addEventListener() method, else fallback to
-  the legacy .addListener() method.
+- Added props descriptions to Show / Hide components
+- Fixed an issue where the hook `useBreakpoint` did not work as expected with
+  custom breakpoints
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
 
-**Cli** `v1.8.0`
+**Checkbox** `v1.6.6`
 
-- Fixed an internal version number mismatch
-- When the [Chakra CLI](https://chakra-ui.com/docs/theming/advanced#theme-typings)
-  fails to generate theme typings, it now exits with a status code of `1`. This
-  resolves an issue where failures exited with a success status code.
-- Increased scan depth for tokens in cli tooling
+- Add Form-Control support for useCheckbox
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
 
-**Tooltip** `v1.4.5`
+**Create React App Ts** `v1.1.11`
 
-- Fix an issue where arrow tooltip background color only consider bg props. It
-  considers `bg`, `background`, `bgColor` and `backgroundColor` now.
-- allow framer motion v6 as peer dependency
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
 
-**Accordion** `v1.4.5`
+**Gatsby Starter Default** `v0.3.11`
 
-- allow framer motion v6 as peer dependency
-- Add missing peer dependencies
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
 
-**Checkbox** `v1.6.4`
+**Chakra Nextjs** `v1.1.11`
 
-- allow framer motion v6 as peer dependency
-- Fixing a bug that happens when using the useCheckboxGroup hook with number
-  values instead of string values
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
 
-**Menu** `v1.8.5`
+**Chakra Nextjs Ts** `v1.1.11`
 
-- allow framer motion v6 as peer dependency
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
 
-**Modal** `v1.10.6`
+**Storybook Addon** `v1.0.2`
 
-- allow framer motion v6 as peer dependency
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
 
-**Popover** `v1.11.3`
+**Accordion** `v1.4.7`
 
-- allow framer motion v6 as peer dependency
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+- Updated style config for `Accordion` & `AccordionItem` (see
+  https://github.com/chakra-ui/chakra-ui/issues/5593)
 
-**Switch** `v1.3.4`
+This change introduces `styles.root` for styling the `Accordion`.
+`styles.container` is still used for `AccordionItem`
 
-- allow framer motion v6 as peer dependency
-- Add missing peer dependencies
+**Alert** `v1.3.6`
 
-**Toast** `v1.5.3`
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
 
-- allow framer motion v6 as peer dependency
-- Fixed an issue where the `useToast` function returned a new object on every
-  render.
+**Anatomy** `v1.2.4`
 
-**Transition** `v1.4.4`
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
 
-- allow framer motion v6 as peer dependency
+**Avatar** `v1.3.7`
 
-**Utils** `v1.10.1`
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
 
-- Fixing a bug that happens when using the useCheckboxGroup hook with number
-  values instead of string values
+**Breadcrumb** `v1.3.5`
 
-**System** `v1.10.2`
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
 
-- Disallow props that do not exist in the prop interface
+**Button** `v1.5.6`
 
-**Form Control** `v1.5.5`
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
 
-- Remove redundant `useMemo` from `FormControl`
+**Clickable** `v1.2.5`
 
-**Anatomy** `v1.2.2`
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
 
-- Add missing peer dependencies
+**Close Button** `v1.2.6`
 
-**Skeleton** `v1.2.8`
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
 
-- Add missing peer dependencies
+**Color Mode** `v1.4.4`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Control Box** `v1.1.5`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Counter** `v1.2.6`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Css Reset** `v1.1.3`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Descendant** `v2.1.3`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Editable** `v1.3.6`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**React Env** `v1.1.5`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Focus Lock** `v1.2.5`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Form Control** `v1.5.7`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Hooks** `v1.8.3`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Icon** `v2.0.4`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+- Add missing word in comment of CreateIconOptions
+
+**Icons** `v1.1.6`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Image** `v1.1.6`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Input** `v1.4.2`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Layout** `v1.7.5`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Live Region** `v1.1.5`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Menu** `v1.8.7`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Modal** `v1.10.8`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Number Input** `v1.4.3`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Pin Input** `v1.7.6`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Popover** `v1.11.5`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Popper** `v2.4.3`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Portal** `v1.3.6`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Progress** `v1.2.5`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Provider** `v1.7.10`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Radio** `v1.4.8`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**React Utils** `v1.2.3`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Select** `v1.2.7`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Skeleton** `v1.2.10`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Skip Nav** `v1.2.5`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Slider** `v1.5.7`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Spinner** `v1.2.5`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Stat** `v1.2.6`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Styled System** `v1.17.3`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**System** `v1.11.0`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+- Allow all `JSX.IntrinsicElements` for the chakra factory. This allows to use
+  [every DOM element](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/30a2f70db2f9ac223fd923ff1f8bcc175c082fd0/types/react/index.d.ts#L3111-L3288)
+  with the shorthand version:
+
+```jsx live=false
+<chakra.header>Header</chakra.header>
+<chakra.main>Main</chakra.main>
+<chakra.footer>Many more</chakra.footer>
+```
+
+**Table** `v1.3.5`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Tabs** `v1.6.6`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Tag** `v1.2.6`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+- Change order of aria-label prop on TagCloseButton to be overwritable
+
+**Textarea** `v1.2.7`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Theme** `v1.13.3`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+- Updated style config for `Accordion` & `AccordionItem` (see
+  https://github.com/chakra-ui/chakra-ui/issues/5593)
+
+This change introduces `styles.root` for styling the `Accordion`.
+`styles.container` is still used for `AccordionItem`
+
+**Theme Tools** `v1.3.5`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Toast** `v1.5.5`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Tooltip** `v1.4.7`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Transition** `v1.4.6`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Utils** `v1.10.3`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+- Fixed an issue where `queryString()` created invalid media queries when min and
+  max were set.
+
+**Visually Hidden** `v1.1.5`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Babel Plugin** `v1.0.2`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Cli** `v1.8.2`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Cra Template** `v1.1.2`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Cra Template Typescript** `v1.1.2`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Gatsby Plugin** `v2.0.4`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Props Docs** `v1.0.48`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Storybook Addon** `v1.0.3`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
+
+**Test Utils** `v1.1.10`
+
+- Bumped patch version for every package to fix release process. We found the root
+  cause this time!
